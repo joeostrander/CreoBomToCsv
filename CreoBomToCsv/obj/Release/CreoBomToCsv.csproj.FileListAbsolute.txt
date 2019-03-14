@@ -1,0 +1,8 @@
+C:\Users\qojmo2\Google Drive\DEV\VisualStudio\CreoBomToCsv\CreoBomToCsv\bin\Release\CreoBomToCsv.exe.config
+C:\Users\qojmo2\Google Drive\DEV\VisualStudio\CreoBomToCsv\CreoBomToCsv\bin\Release\CreoBomToCsv.exe
+C:\Users\qojmo2\Google Drive\DEV\VisualStudio\CreoBomToCsv\CreoBomToCsv\bin\Release\CreoBomToCsv.pdb
+C:\Users\qojmo2\Google Drive\DEV\VisualStudio\CreoBomToCsv\CreoBomToCsv\obj\Release\Interop.pfcls.dll
+C:\Users\qojmo2\Google Drive\DEV\VisualStudio\CreoBomToCsv\CreoBomToCsv\obj\Release\CreoBomToCsv.csproj.ResolveComReference.cache
+C:\Users\qojmo2\Google Drive\DEV\VisualStudio\CreoBomToCsv\CreoBomToCsv\obj\Release\CreoBomToCsv.csproj.CoreCompileInputs.cache
+C:\Users\qojmo2\Google Drive\DEV\VisualStudio\CreoBomToCsv\CreoBomToCsv\obj\Release\CreoBomToCsv.exe
+C:\Users\qojmo2\Google Drive\DEV\VisualStudio\CreoBomToCsv\CreoBomToCsv\obj\Release\CreoBomToCsv.pdb

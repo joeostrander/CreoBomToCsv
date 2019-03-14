@@ -17,8 +17,7 @@ namespace CreoBomToCsv
         static string lastModelDirectory = "";
         static string lastModelName = "";
         static string outputDirectory = "";
-
-
+        
 
         static void Main(string[] args)
         {

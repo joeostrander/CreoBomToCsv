@@ -1,0 +1,18 @@
+C:\Users\qojmo2\source\repos\CreoBomToCsv\CreoBomToCsv\bin\Debug\CreoBomToCsv.exe.config
+C:\Users\qojmo2\source\repos\CreoBomToCsv\CreoBomToCsv\bin\Debug\CreoBomToCsv.exe
+C:\Users\qojmo2\source\repos\CreoBomToCsv\CreoBomToCsv\bin\Debug\CreoBomToCsv.pdb
+C:\Users\qojmo2\source\repos\CreoBomToCsv\CreoBomToCsv\obj\Debug\CreoBomToCsv.csprojAssemblyReference.cache
+C:\Users\qojmo2\source\repos\CreoBomToCsv\CreoBomToCsv\obj\Debug\Interop.pfcls.dll
+C:\Users\qojmo2\source\repos\CreoBomToCsv\CreoBomToCsv\obj\Debug\CreoBomToCsv.csproj.ResolveComReference.cache
+C:\Users\qojmo2\source\repos\CreoBomToCsv\CreoBomToCsv\obj\Debug\CreoBomToCsv.csproj.CoreCompileInputs.cache
+C:\Users\qojmo2\source\repos\CreoBomToCsv\CreoBomToCsv\obj\Debug\CreoBomToCsv.exe
+C:\Users\qojmo2\source\repos\CreoBomToCsv\CreoBomToCsv\obj\Debug\CreoBomToCsv.pdb
+C:\Users\qojmo2\Google Drive\DEV\VisualStudio\CreoBomToCsv\CreoBomToCsv\bin\Debug\CreoBomToCsv.exe.config
+C:\Users\qojmo2\Google Drive\DEV\VisualStudio\CreoBomToCsv\CreoBomToCsv\bin\Debug\CreoBomToCsv.exe
+C:\Users\qojmo2\Google Drive\DEV\VisualStudio\CreoBomToCsv\CreoBomToCsv\bin\Debug\CreoBomToCsv.pdb
+C:\Users\qojmo2\Google Drive\DEV\VisualStudio\CreoBomToCsv\CreoBomToCsv\obj\Debug\CreoBomToCsv.csprojAssemblyReference.cache
+C:\Users\qojmo2\Google Drive\DEV\VisualStudio\CreoBomToCsv\CreoBomToCsv\obj\Debug\Interop.pfcls.dll
+C:\Users\qojmo2\Google Drive\DEV\VisualStudio\CreoBomToCsv\CreoBomToCsv\obj\Debug\CreoBomToCsv.csproj.ResolveComReference.cache
+C:\Users\qojmo2\Google Drive\DEV\VisualStudio\CreoBomToCsv\CreoBomToCsv\obj\Debug\CreoBomToCsv.csproj.CoreCompileInputs.cache
+C:\Users\qojmo2\Google Drive\DEV\VisualStudio\CreoBomToCsv\CreoBomToCsv\obj\Debug\CreoBomToCsv.exe
+C:\Users\qojmo2\Google Drive\DEV\VisualStudio\CreoBomToCsv\CreoBomToCsv\obj\Debug\CreoBomToCsv.pdb
