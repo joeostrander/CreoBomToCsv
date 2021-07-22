@@ -318,8 +318,8 @@ namespace CreoBomToCsv
                 Console.WriteLine("Warning:  Set the environment variables!");
                 Console.WriteLine();
                 Console.WriteLine("Example values:");
-                Console.WriteLine("PRO_COMM_MSG_EXE=\"c:\\Program Files\\PTC\\Creo 4.0\\M030\\Common Files\\x86e_win64\\obj\\pro_comm_msg.exe\"");
-                Console.WriteLine("PRO_DIRECTORY=\"C:\\Program Files\\PTC\\Creo 4.0\\M030\\Common Files\"");
+                Console.WriteLine("PRO_COMM_MSG_EXE=\"C:\\Program Files\\PTC\\Creo 7.0.4.0\\Common Files\\x86e_win64\\obj\\pro_comm_msg.exe\"");
+                Console.WriteLine("PRO_DIRECTORY=\"C:\\Program Files\\PTC\\Creo 7.0.4.0\\Common Files\"");
                 System.Threading.Thread.Sleep(10000);
                 Environment.Exit(1);
             }
