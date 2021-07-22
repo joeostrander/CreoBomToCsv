@@ -14,7 +14,7 @@ namespace CreoBomToCsv
 
         
         static IpfcAsyncConnection asyncConnection;
-        static string lastModelDirectory = "";
+        static string lastModelDirectory = "unknown";
         static string lastModelName = "";
         static string outputDirectory = "";
         
@@ -66,8 +66,6 @@ namespace CreoBomToCsv
 
             CreoSession = (IpfcBaseSession)asyncConnection.Session;
 
-
-
             IpfcModel CreoModel;
             CreoModel = CreoSession.CurrentModel;
 
@@ -79,13 +77,22 @@ namespace CreoBomToCsv
 
             lastModelName = CreoModel.FullName;
 
-            Console.WriteLine("Current Model:  {0}", lastModelName);
+            Console.WriteLine("Current File:     {0}", CreoModel.FileName);
+            Console.WriteLine("Current Model:    {0}", lastModelName);
 
-            FileInfo fi = new FileInfo(CreoModel.Origin);
-            lastModelDirectory = fi.Directory.FullName;
+            try
+            {
+                FileInfo fi = new FileInfo(CreoModel.Origin);
+                lastModelDirectory = fi.Directory.FullName;
+            }
+            catch (Exception ex)
+            {
+                //Console.WriteLine(ex.Message);
+                //Console.WriteLine("\n\nCould not get file directory!");
+                //return;
+            }
 
             Console.WriteLine("Model Directory:  {0}", lastModelDirectory);
-
 
             pfcls.IpfcTableOwner TableObj = (pfcls.IpfcTableOwner)CreoModel;
 
@@ -117,8 +124,6 @@ namespace CreoBomToCsv
 
                     int RowCount = table.GetRowCount();
                     int ColumnCount = table.GetColumnCount();
-
-
 
                     for (int j = 1; j <= RowCount; j++)
                     {
@@ -216,6 +221,12 @@ namespace CreoBomToCsv
                 Console.WriteLine("Could not find AUTO BOM table!");
             }
 
+            if (string.IsNullOrEmpty(strOutput))
+            {
+                Console.WriteLine("No data to save!");
+                return;
+            }
+
 
             //Save file
             string strFilename;
@@ -227,10 +238,20 @@ namespace CreoBomToCsv
                 strFilename = lastModelDirectory + "\\" + lastModelName + ".csv";
             }
                 //= lastModelDirectory + "\\" + lastModelName + ".csv";
-            File.WriteAllText(strFilename, strOutput);
-        
-            Console.WriteLine("Done!");
-            Console.WriteLine("Saved to: {0}",strFilename);
+
+            try
+            {
+                File.WriteAllText(strFilename, strOutput);
+
+                Console.WriteLine("Done!");
+                Console.WriteLine("Saved to: {0}", strFilename);
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine(ex.Message);
+                Console.WriteLine("\n\nCould not save CSV file.  Is it open?");
+            }
+
 
 
         }
@@ -297,7 +318,6 @@ namespace CreoBomToCsv
             Console.WriteLine("Name:         {0}",name.Name);
             Console.WriteLine("Version:      {0}", name.Version);
             Console.WriteLine("Author:       Joe Ostrander");
-            Console.WriteLine("Build date:   {0}",DateTime.Now);
             Console.WriteLine("Description:  Extract the BOM table from a Creo drawing");
             Console.WriteLine();
             Console.WriteLine("Optional usage:  CreoBomToCsv.exe <output directory>");
